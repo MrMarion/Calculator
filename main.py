@@ -1,13 +1,41 @@
 def add(x, y):
+    """
+       Adds two numbers and returns the result.
+
+       @param x: First number
+       @param y: Second number
+       @return: Sum of x and y
+       """
     return x + y
 
 def subtract(x, y):
+    """
+       Subtracts the second number from the first and returns the result.
+
+       @param x: First number
+       @param y: Second number
+       @return: Difference of x and y
+       """
     return x - y
 
 def multiply(x, y):
+    """
+       Multiplies two numbers and returns the result.
+
+       @param x: First number
+       @param y: Second number
+       @return: Product of x and y
+       """
     return x * y
 
 def divide(x, y):
+    """
+        Divides the first number by the second and returns the result.
+
+        @param x: First number
+        @param y: Second number
+        @return: Quotient of x and y, or an error message if y is 0
+        """
     if y == 0:
         return "Ошибка: деление на ноль"
     return x / y
